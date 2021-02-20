@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-lightbox/static/css/main.3413b4e0.chunk.css",
+    "main.js": "/react-lightbox/static/js/main.eb16adcb.chunk.js",
+    "main.js.map": "/react-lightbox/static/js/main.eb16adcb.chunk.js.map",
+    "runtime-main.js": "/react-lightbox/static/js/runtime-main.d2a9ec61.js",
+    "runtime-main.js.map": "/react-lightbox/static/js/runtime-main.d2a9ec61.js.map",
+    "static/js/2.8b20d434.chunk.js": "/react-lightbox/static/js/2.8b20d434.chunk.js",
+    "static/js/2.8b20d434.chunk.js.map": "/react-lightbox/static/js/2.8b20d434.chunk.js.map",
+    "index.html": "/react-lightbox/index.html",
+    "static/css/main.3413b4e0.chunk.css.map": "/react-lightbox/static/css/main.3413b4e0.chunk.css.map",
+    "static/js/2.8b20d434.chunk.js.LICENSE.txt": "/react-lightbox/static/js/2.8b20d434.chunk.js.LICENSE.txt",
+    "static/media/four.63fcc8de.jpeg": "/react-lightbox/static/media/four.63fcc8de.jpeg",
+    "static/media/one.a1ef747f.jpg": "/react-lightbox/static/media/one.a1ef747f.jpg",
+    "static/media/three.021bb5ff.jpg": "/react-lightbox/static/media/three.021bb5ff.jpg",
+    "static/media/two.63c669e7.jpeg": "/react-lightbox/static/media/two.63c669e7.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2a9ec61.js",
+    "static/js/2.8b20d434.chunk.js",
+    "static/css/main.3413b4e0.chunk.css",
+    "static/js/main.eb16adcb.chunk.js"
+  ]
+}
