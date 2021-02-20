@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+
+import BackgroundImage from "./components/BackgroundImage";
+import ImageListing from "./components/ImageListing";
+import MainImage from "./components/MainImage";
 
 function App() {
+  const [click, setClick] = useState(false);
+  const [image, setImage] = useState("");
+
+  const onClick = (e) => {
+    setImage(e.target.currentSrc);
+    setClick(!click);
+  };
+
+  const onClose = () => {
+    setClick(false);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <MainImage />
+      <ImageListing onClick={onClick} />
+      <div className={click ? "backgroundimage" : "normal"} onClick={onClose}>
+        <BackgroundImage image={image} />
+      </div>
     </div>
   );
 }
