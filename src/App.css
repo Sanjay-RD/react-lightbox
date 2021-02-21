@@ -3,8 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container {
+
+.mainImage-container {
   width: 510px;
+}
+
+.mainImage {
+  width: 100%;
+  height: 345px;
+  object-fit: cover;
+  border-radius: 3px;
 }
 
 .backgroundimage {
@@ -106,6 +114,16 @@ img.hover-shadow {
 
 @media screen and (max-width: 960px) {
   .backgroundImagesize {
-    height: 260px;
+    height: 200px;
+  }
+  .mainImage-container {
+    width: 100%;
+  }
+  .mainImage {
+    height: 300px;
+  }
+  .flex {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
   }
 }
